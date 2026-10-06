@@ -1,0 +1,66 @@
+.nav{
+    background-color: rgb(3, 3, 47);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    }
+    .logo{
+        color: white;
+        font-size: 20px;
+    }
+    .links a{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    input{
+        background-color: rgb(136, 136, 17);
+        border: none;
+        border-radius: 20px;
+        padding: 8px 20px;
+        cursor: pointer;
+        color: white;
+        font-size:17px;
+    }
+    *{
+        margin: 0;
+    }
+    /*  */
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    p{
+        text-align: center;
+        padding: 20px;
+    }
+    /*  */
+    .cards img{
+        width: 50px;
+        height: 50px;
+    }
+    .cardsection{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+    .cards{
+        width: 280px;
+        padding: 28px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(190, 190, 203);
+        border-radius: 10px;
+    }
+    /*  */
+    .botnav{
+        background-color: rgb(3, 3, 47);
+        color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    

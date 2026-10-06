@@ -1,0 +1,88 @@
+.nav{
+    background-color: rgb(3, 3, 47);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    }
+    .logo{
+        color: white;
+        font-size: 20px;
+    }
+    .links a{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    input[value="Logout"]{
+        background-color: rgb(136, 136, 17);
+        border: none;
+        border-radius: 20px;
+        padding: 8px 20px;
+        cursor: pointer;
+        color: white;
+        font-size:17px;
+    }
+    *{
+        margin: 0;
+    }
+    /*  */
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    p{
+        text-align: center;
+        padding: 20px;
+    }
+    /*  */
+    form{
+        margin: 0;
+        box-shadow: 0 0 12px rgb(210, 207, 207);
+        width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+    input[type="text"],input[type="email"],input[type="tel"],textarea{
+        width: 460px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 219, 234);
+    }
+    input[value="Send Message"]{
+        background-color: rgb(8, 8, 40);
+        border: none;
+        border-radius: 10px;
+        padding: 8px 185px;
+        cursor: pointer;
+        color: white;
+        font-size:17px;
+        /* margin-left: 180px; */
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /*  */
+    .card img{
+        width: 50px;
+        height: 50px;
+    }
+    .cardsection{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+    .card{
+        width: 280px;
+        padding: 28px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(190, 190, 203);
+        border-radius: 10px;
+    }
